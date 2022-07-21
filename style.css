@@ -186,12 +186,18 @@ body{
 
 .new{
     display:flex;
-    align-items: center;
-    
-    
+    align-items: center;  
 }
 .vs{
 
+}
+
+/* transform and transition style */
+.player-photo img:hover{
+    transform: rotate(180deg);
+}
+.player-photo img{
+    transition:transform 3s;
 }
 
 
