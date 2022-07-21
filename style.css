@@ -55,9 +55,9 @@ body{
     transition:transform .5s linear;
 
 }
-.col-1-button:hover{
+/* .col-1-button:hover{
     transform:145deg
-}
+} */
 
 .player-photo img{
     width:100%;
@@ -82,12 +82,15 @@ body{
     
     
 }
+#special{
+    background-color:red;
+}
 .left-site-link button{
     width:180px;
     margin-top:20px;
     padding:7px 10px;
     border:none;
-    box-shadow:3px 3px 3px whitesmoke;
+    /* box-shadow:3px 3px 3px whitesmoke; */
     border-radius:5px;
 }
 .left-site-link button a{
@@ -95,6 +98,7 @@ body{
     color:black;
     font-size:20px;  
 }
+
 /* end left site link style  */
 
 
@@ -115,6 +119,7 @@ body{
     .blog .thambnail img{
         width:100%;
     }
+    
     .blog-icon{
         display:flex;
         
@@ -215,7 +220,7 @@ margin-right:10px;
 
 
 /* media query */
-
+/* mobaile view */
 @media only screen and (max-width:675px) {
     .header-container{
         display:flex;
@@ -223,7 +228,7 @@ margin-right:10px;
         align-items: center;  
     }
     .col-1-button{
-        margin-left:20%;
+        /* margin-left:20%; */
         margin-bottom:1.3rem;
     }
     .main-container{
@@ -276,7 +281,7 @@ margin-right:10px;
         visibility: hidden;
     }
 } 
-
+/* tablet view */
 @media only screen and (min-width:676px) and (max-width:992px) {
     .col-1-title{
         font-size:1em
@@ -321,6 +326,9 @@ margin-right:10px;
     #special{
         background-color:red;
     }
+    #special{
+        background-color:none;
+    }
     .right-site-blogs{
         grid-template-columns: repeat(2, 1fr);
     }
@@ -346,5 +354,8 @@ margin-right:10px;
         margin-bottom: 20px;
         
         
+    }
+    #special1{
+        background-color:orange;
     }
 }
